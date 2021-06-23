@@ -26,6 +26,9 @@ public class makeup {
         System.out.println("Menampilkan Data Barang");
     }
 
+    public makeup() {
+    }
+
     //Constructor
     public makeup(String brand, String nama, String jenis, int kode, int jumlah, String jenisKulit, String jenisTekstur, double harga) {
         this.brand = brand;
